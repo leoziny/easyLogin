@@ -35,8 +35,11 @@ CREATE TABLE usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100),
     idade INT,
-    email VARCHAR(100)
+    email VARCHAR(100),
+    admin BOOLEAN default false
 );
+
+(caso queira um usuario administrador, altere diretamente no banco de dados e coloque True)
 
 ## Estrutura do Código
 ### Função criar_usuario()
