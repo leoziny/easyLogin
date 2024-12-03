@@ -4,7 +4,7 @@ import time
 import MySQLdb
 
 def conectar_banco():
-    return MySQLdb.connect(host="localhost", user="leogo", passwd="luaneleo", db="usuarios")
+    return MySQLdb.connect(host="localhost", user="seu_usuario", passwd="sua_senha", db="usuarios")
 
 def criar_usuario():
     try:
